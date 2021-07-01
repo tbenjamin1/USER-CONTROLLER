@@ -1,0 +1,92 @@
+@media (min-width:0px) and (max-width:375px){
+    .user{
+        font-size: 10px;
+       background-color: rgb(233, 215, 215); 
+       padding: 2rem;
+       margin-bottom: 1rem;
+       width: 16rem;
+       height: 10rem;
+       font-family:   "Noto Sans JP", sans-serif;
+}
+.btn{
+     color: white;
+     background-color: rgb(100, 124, 128);
+     border-radius: 2rem;
+     width: 6rem;
+     float: left;
+
+
+
+ }.user h1{
+    float: left;
+    
+     font-size: 10px;
+ }
+ 
+ .modal {
+    position: fixed;
+    top: 30vh;
+    margin:auto;
+    width: 70%;
+    z-index: 100;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+  }
+  .modal-header {
+    margin: 0;
+    background: #0d0e0d;
+    
+  }
+  
+  .modal-header h2 {
+   
+    font-size:20px;
+    color: white;
+  }
+}
+@media (min-width:375px) and (max-width:414px){
+    .user{
+        
+        font-size: 15px;
+       background-color: #ddd; 
+       padding: 2rem;
+       margin: 1rem auto;
+       width: 19rem;
+       height: 11rem;
+       font-family:   "Noto Sans JP", sans-serif;
+}
+.btn{
+     color: white;
+     background-color: rgb(100, 124, 128);
+     border-radius: 2rem;
+     width: 6rem;
+     float: left;
+
+
+
+ }
+}
+@media (min-width:414px) and (max-width:600px){
+    .user{
+        
+        font-size: 15px;
+       background-color: #ddd; 
+       padding: 2rem;
+       margin: 1rem auto;
+       width: 20rem;
+       height: 10rem;
+       font-family:   "Noto Sans JP", sans-serif;
+}
+.btn{
+     color: white;
+     background-color: rgb(100, 124, 128);
+     border-radius: 2rem;
+     width: 6rem;
+     float: left;
+
+
+
+ }
+}

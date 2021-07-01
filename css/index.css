@@ -1,0 +1,147 @@
+
+* {
+    box-sizing: border-box;
+  }
+body{
+  
+  
+    background-color: rgb(174, 196, 211);
+}
+h1{
+text-align: center;
+}
+
+.container{
+    
+  
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+   
+    margin: 2rem auto;
+    width: 30rem;
+    max-width: 95%;
+    
+}
+.user{
+    border-radius: 2rem;
+     font-size: 15px;
+    background-color: #ddd; 
+
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 25rem;
+    height: 9rem;
+    font-family:   "Noto Sans JP", sans-serif;
+}
+.user p{
+    float: left;
+ 
+    font-size: 15px;
+    
+}
+.user h1{
+   float: left;
+   
+    font-size: 17px;
+}
+
+
+header{
+    font-size: 40px;
+    text-align: center;
+    height: 5rem;
+    width: 30rem;
+    margin-bottom: 3rem;
+}
+.btn{
+ float: right;
+    color: rgb(19, 18, 18);
+    background-color:  rgb(174, 196, 211);
+    border-radius: 2rem;
+    width: 5rem;
+    
+}
+
+
+.modal {
+    position: fixed;
+    top: 30vh;
+    margin:auto;
+    width: 50%;
+    z-index: 100;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+  }
+  .modal-header {
+    margin: 2rem;
+    background: #0d0e0d;
+    
+  }
+  
+  .modal-header h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .post {
+    padding: 1rem;
+  }
+  
+  .post .body {
+    color: #0c0b0b;
+  }
+  
+  .modal-footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .modal-footer p {
+    font-weight: bold;
+  }
+  
+  .modal-btn {
+    font: inherit;
+   
+    background: #0f0f0f;
+    color: white;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+  }
+  
+  .modal-btn:hover,
+  .modal-btn:active {
+    background: #a2aaa7;
+    border-color: #557468;
+  }
+  
+  .modal-btn:focus {
+    outline: none;
+  }
+  
+  @keyframes animateC {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes animate {
+    0% {
+      transform: rotate(45deg);
+    }
+    100% {
+      transform: rotate(405deg);
+    }
+  }
+
+ 
+  
+  
+  
